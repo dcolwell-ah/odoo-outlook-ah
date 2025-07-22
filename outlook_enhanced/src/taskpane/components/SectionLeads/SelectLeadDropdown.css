@@ -1,0 +1,53 @@
+.Lead-search-result-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.log-email-icon {
+    margin-left: 10px;
+    cursor: pointer;
+/*    display: inline-flex;*/
+    align-items: center;
+}
+
+/* Ensure child elements inside logger remain inline */
+.log-email-icon * {
+    display: inline-flex !important;
+    vertical-align: middle;
+}
+
+.Lead-search-no-result-text {
+    margin-top: 8px;
+}
+
+.Lead-search-result-text:hover {
+    color: #96417e;
+}
+
+.Lead-no-scroll {
+    overflow-y: hidden;
+}
+
+.Lead-result-spinner {
+    margin: 16px auto auto auto;
+    height: 100%;
+}
+
+.Lead-search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    margin: 8px 0 8px 0;
+}
+
+.Lead-result-container {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
