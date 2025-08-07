@@ -110,11 +110,11 @@ class SelectLeadDropdown extends React.Component<SelectLeadDropdownProps, Select
     render() {
         return (
             <div className="Lead-result-container">
-                <div>{_t('Pick a Lead')}</div>
+                <div>{_t('Pick an Opportunity')}</div>
                 <div className="Lead-search-bar">
                     <TextField
                         className="input-search"
-                        placeholder={_t('Search Leads...')}
+                        placeholder={_t('Search Opportunities...')}
                         onChange={this.onQueryChanged}
                         value={this.state.query}
                         autoComplete="off"
