@@ -114,7 +114,7 @@ export default class App extends React.Component<AppProps, AppState> {
                 else
                     this.setState({
                         EnrichmentInfo: new EnrichmentInfo(EnrichmentInfoType.ConnectionError),
-                        showEnrichmentInfoMessage: true,
+                        showEnrichmentInfoMessage: false,
                     });
             },
 
@@ -122,7 +122,7 @@ export default class App extends React.Component<AppProps, AppState> {
                 if (error && error.message == '0') {
                     this.setState({
                         EnrichmentInfo: new EnrichmentInfo(EnrichmentInfoType.ConnectionError),
-                        showEnrichmentInfoMessage: true,
+                        showEnrichmentInfoMessage: false,
                     });
                 } else {
                     this.setState({
